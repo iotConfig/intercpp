@@ -1,0 +1,6 @@
+baseType:"int"|"bool"|"char"|"double"|"long"#
+ptr:'*'#
+reference:'&'#
+name:"[a-z]+"#
+functionProt:baseType (ptr | reference)* name {print got a funct
+proto}#

@@ -1,0 +1,4 @@
+functiondecl: ~type name (param*)~
+param: ~ type name ~
+type: ~"int" | "long" | "double" | "float"~
+name: ~[a-Z].*~
